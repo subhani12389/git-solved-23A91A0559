@@ -1,26 +1,14 @@
-# DevOps Simulator
+# DevOpsSimulator
 
-A comprehensive CI/CD configuration management tool for enterprise deployments.
-
-## Project Status
-**Version**: 1.0.0  
-**Environment**: Production  
-**Maintainer**: DevOps Team
+A simulated DevOps environment for practicing CI/CD, containerization, and monitoring.
 
 ## Features
-- Automated deployment scripts
-- Real-time monitoring
-- Configuration management
-- Backup and recovery system
+- Container-based microservices
+- Automated deployments
+- System monitoring tools
 
-## Quick Start
-1. Clone the repository
-2. Configure environment variables
-3. Run deployment script
-4. Monitor system health
-
-## Documentation
-See `/docs` folder for detailed documentation.
-
-## License
-MIT License
+## Development Setup
+To run in development mode:
+```bash
+npm install
+npm run dev

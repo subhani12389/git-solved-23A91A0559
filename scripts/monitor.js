@@ -1,36 +1,18 @@
-/**
- * System Monitoring Script - Production
- * Monitors application health and performance
- */
+const os = require('os');
 
-const monitorConfig = {
-  interval: 60000, // 1 minute
-  alertThreshold: 80,
-  metricsEndpoint: 'http://localhost:8080/metrics'
-};
+function logStatus() {
+  const status = {
+    uptime: os.uptime(),
+    load: os.loadavg(),
+    freeMemory: os.freemem(),
+    totalMemory: os.totalmem(),
+  };
 
-console.log('=================================');
-console.log('DevOps Simulator - Monitor v1.0');
-console.log('=================================');
-
-function checkSystemHealth() {
-  console.log(`[${new Date().toISOString()}] Checking system health...`);
-  
-  // Check CPU usage
-  console.log('✓ CPU usage: Normal');
-  
-  // Check Memory
-  console.log('✓ Memory usage: Normal');
-  
-  // Check Disk
-  console.log('✓ Disk space: Adequate');
-  
-  console.log('System Status: HEALTHY');
+  if (process.env.NODE_ENV === 'development') {
+    console.log('Development Mode Status:', status);
+  } else {
+    console.log(JSON.stringify(status));
+  }
 }
 
-// Start monitoring
-console.log(`Monitoring every ${monitorConfig.interval}ms`);
-setInterval(checkSystemHealth, monitorConfig.interval);
-
-// Run first check immediately
-checkSystemHealth();
+setInterval(logStatus, 5000);
