@@ -1,0 +1,14 @@
+# Commit the merge with detailed message
+git commit -m "merge: Resolve all conflicts between main and dev branches
+
+Conflicts resolved in 6 files:
+- config/app-config.yaml: Combined production and development configurations
+- config/database-config.json: Created separate profiles for each environment
+- scripts/deploy.sh: Added multi-environment support with conditional logic
+- scripts/monitor.js: Implemented environment-based configuration
+- docs/architecture.md: Merged documentation covering both environments
+- README.md: Combined feature lists and updated documentation
+
+Resolution strategy: Maintained production stability while integrating 
+development features as optional configurations. All features are now 
+accessible through environment variables."
