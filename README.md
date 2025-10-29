@@ -100,3 +100,4 @@ See `/docs` folder and `/docs/ai-integration.md`
 MIT License conflict-simulator
 =======
 >>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
+"## FAQ" 
