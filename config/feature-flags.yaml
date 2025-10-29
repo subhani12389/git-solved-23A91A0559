@@ -1,0 +1,7 @@
+# Production configuration (active)
+features:
+  auto_scaling: true
+  load_balancer: enabled
+
+# Experimental configuration (disabled by default)
+# experimental_mode: true  # Enable manually for testing new scaling behavior
