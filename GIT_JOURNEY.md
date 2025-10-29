@@ -1,11 +1,11 @@
 # My Git Mastery Challenge Journey
 
 ## Student Information
-- Name: [YOUR NAME]
-- Student ID: [YOUR ID]
-- Repository: [YOUR REPO URL]
-- Date Started: [DATE]
-- Date Completed: [DATE]
+- Name:Subhani Shaik
+- Student ID: 23A91A0559
+- Repository: https://github.com/subhani12389/git-solved-23A91A0559
+- Date Started: 28/10/2025
+- Date Completed: 29/10/2025
 
 ## Task Summary
 Cloned instructor's repository with pre-built conflicts and resolved all 
