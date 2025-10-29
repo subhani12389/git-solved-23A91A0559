@@ -1,5 +1,6 @@
 # DevOps Simulator
 
+<<<<<<< HEAD
 
 A comprehensive simulated DevOps environment for practicing CI/CD, containerization, and advanced configuration management — now enhanced with AI capabilities.
 
@@ -7,11 +8,19 @@ A comprehensive simulated DevOps environment for practicing CI/CD, containerizat
 =======
 **EXPERIMENTAL BUILD** - Advanced CI/CD configuration management with AI integration.
 conflict-simulator
+=======
+A comprehensive simulated DevOps environment for practicing CI/CD, containerization, and advanced configuration management — now enhanced with AI capabilities.
+
+---
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
 
 ## Project Status
 **Version**: 3.0.0-experimental  
 **Environment**: Testing  
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
 **Maintainer**: DevOps Innovation Team  
 
 ---
@@ -39,6 +48,7 @@ To run in standard development mode:
 ```bash
 npm install
 npm run dev
+<<<<<<< HEAD
 **Maintainer**: DevOps Innovation Team
 
 ## Cutting-Edge Features
@@ -88,3 +98,5 @@ See `/docs` folder and `/docs/ai-integration.md`
 
 ## License
 MIT License conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b

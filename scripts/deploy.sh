@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 
 # DevOps Simulator Deployment Script
 # Version: 3.0.0
@@ -6,11 +7,19 @@
 # Experimental Deployment Script with AI
 # Version: 3.0.0-experimental
 >>>>>>> conflict-simulator
+=======
+# DevOps Simulator Deployment Script
+# Version: 3.0.0
+# Supports: Production, Development, and Experimental AI Deployment
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
 
 set -euo pipefail
 
 echo "================================================"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
 echo "🚀 DevOps Simulator - Unified Deployment Script"
 echo "================================================"
 
@@ -112,6 +121,7 @@ case "$ENV" in
     exit 1
     ;;
 esac
+<<<<<<< HEAD
 
 echo "DevOps Simulator - EXPERIMENTAL AI-POWERED DEPLOY"
 echo "================================================"
@@ -185,3 +195,5 @@ echo "AI Dashboard: https://ai.example.com"
 echo "Multi-Cloud Status: https://clouds.example.com"
 echo "================================================"
  conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b

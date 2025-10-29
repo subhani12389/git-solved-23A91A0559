@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   "production": {
     "host": "prod-db.company.com",
     "port": 5432,
@@ -15,8 +18,11 @@
     "password": "devpass",
     "database": "dev_db"
   },
+<<<<<<< HEAD
 
 conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   "connection": {
     "type": "distributed",
     "hosts": [
@@ -59,7 +65,11 @@ conflict-simulator
     "alert_on_anomaly": true,
     "metrics_export": "prometheus"
   }
+<<<<<<< HEAD
 
 }
 }
 >>>>>>> conflict-simulator
+=======
+}
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b

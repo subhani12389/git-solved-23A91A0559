@@ -9,6 +9,7 @@ const os = require('os');
 const monitorConfig = {
   mode: process.env.MONITOR_MODE || 'basic', // 'basic' or 'ai'
   interval: 5000, // default for basic mode
+<<<<<<< HEAD
 
  * AI-Enhanced System Monitoring Script
  * Version: 3.0.0-experimental
@@ -18,6 +19,8 @@ const monitorConfig = {
 const monitorConfig = {
   interval: 30000, // 30 seconds
  conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   alertThreshold: 75,
   metricsEndpoint: 'http://localhost:9000/metrics',
   aiEnabled: true,
@@ -51,6 +54,7 @@ function predictFutureMetrics() {
     cpu: Math.random() * 100,
     memory: Math.random() * 100,
     traffic: Math.random() * 1000,
+<<<<<<< HEAD
 
     confidence: (Math.random() * 30 + 70).toFixed(2),
   };
@@ -59,12 +63,20 @@ function predictFutureMetrics() {
   };
   
  conflict-simulator
+=======
+    confidence: (Math.random() * 30 + 70).toFixed(2),
+  };
+
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   console.log(`📊 Predicted metrics in ${monitorConfig.predictiveWindow}s:`);
   console.log(`   CPU: ${prediction.cpu.toFixed(2)}% (confidence: ${prediction.confidence}%)`);
   console.log(`   Memory: ${prediction.memory.toFixed(2)}% (confidence: ${prediction.confidence}%)`);
   console.log(`   Traffic: ${prediction.traffic.toFixed(0)} req/s (confidence: ${prediction.confidence}%)`);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   if (prediction.cpu > monitorConfig.alertThreshold) {
     console.log('⚠️  PREDICTIVE ALERT: High CPU expected - Pre-scaling initiated');
   }
@@ -78,6 +90,7 @@ function checkSystemHealthAI() {
 
   // Multi-cloud monitoring
   monitorConfig.cloudProviders.forEach((cloud) => {
+<<<<<<< HEAD
 =======
   
   // Predictive alerts
@@ -95,25 +108,34 @@ function checkSystemHealth() {
   // Multi-cloud monitoring
   monitorConfig.cloudProviders.forEach(cloud => {
  conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
     console.log(`\n☁️  ${cloud.toUpperCase()} Status:`);
     console.log(`   ✓ Instances: ${Math.floor(Math.random() * 10 + 5)}`);
     console.log(`   ✓ Load: ${(Math.random() * 100).toFixed(2)}%`);
     console.log(`   ✓ Health: ${Math.random() > 0.1 ? 'HEALTHY' : 'DEGRADED'}`);
   });
 
+<<<<<<< HEAD
   
  conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   // System metrics
   console.log('\n💻 System Metrics:');
   const cpuUsage = Math.random() * 100;
   const memUsage = Math.random() * 100;
   const diskUsage = Math.random() * 100;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   console.log(`   CPU: ${cpuUsage.toFixed(2)}%`);
   console.log(`   Memory: ${memUsage.toFixed(2)}%`);
   console.log(`   Disk: ${diskUsage.toFixed(2)}% used`);
 
+<<<<<<< HEAD
 
   
   console.log(`   CPU: ${cpuUsage.toFixed(2)}%`);
@@ -122,11 +144,14 @@ function checkSystemHealth() {
   
   // AI-powered analysis
 conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   if (monitorConfig.aiEnabled) {
     console.log('\n🤖 AI Analysis:');
     console.log('   ✓ Pattern recognition: ACTIVE');
     console.log('   ✓ Anomaly detection: NO ANOMALIES');
     console.log('   ✓ Performance optimization: 12 suggestions');
+<<<<<<< HEAD
 
     predictFutureMetrics();
   }
@@ -138,6 +163,11 @@ conflict-simulator
   
   // Overall status
  conflict-simulator
+=======
+    predictFutureMetrics();
+  }
+
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   const maxUsage = Math.max(cpuUsage, memUsage, diskUsage);
   if (maxUsage > monitorConfig.alertThreshold) {
     console.log('\n🔴 System Status: WARNING - High resource usage');
@@ -159,7 +189,10 @@ if (monitorConfig.mode === 'ai') {
   console.log(`✓ Model loaded: ${monitorConfig.mlModelPath}`);
   console.log('✓ TensorFlow.js initialized');
   console.log('✓ Anomaly detection ready');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   console.log(`\nMonitoring interval: 30000ms`);
   console.log(`Cloud providers: ${monitorConfig.cloudProviders.join(', ')}`);
   console.log(`AI predictions: ${monitorConfig.predictiveWindow}s ahead\n`);
@@ -169,6 +202,7 @@ if (monitorConfig.mode === 'ai') {
   setInterval(checkSystemHealthAI, 30000);
 
   // Background AI model retraining
+<<<<<<< HEAD
 
 }
 
@@ -184,6 +218,8 @@ checkSystemHealth();
 
 // Background AI training
 if (monitorConfig.aiEnabled) { conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
   setInterval(() => {
     console.log('\n🎓 AI Model: Retraining on new data...');
     console.log('   Training accuracy: 94.7%');
@@ -193,7 +229,10 @@ if (monitorConfig.aiEnabled) { conflict-simulator
   console.log('Basic system monitoring active...');
   setInterval(logStatusBasic, monitorConfig.interval);
 }
+<<<<<<< HEAD
 
   }, 120000); // Every 2 minutes
 }
  conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b

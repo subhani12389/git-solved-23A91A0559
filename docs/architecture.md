@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
 # System Architecture
 
 The **DevOps Simulator** project follows a **modular, event-driven microservices architecture** designed for flexibility, scalability, and experimentation with AI-driven automation.
@@ -89,6 +92,7 @@ DevOps Simulator supports both **production-ready** and **experimental** configu
 | **Production** | Stable CI/CD & monitoring | Containers, load balancing, Prometheus |
 | **Development** | Local testing | Hot reload, mock APIs, lightweight DB |
 | **Experimental** | AI-driven automation | ML models, predictive scaling, multi-cloud orchestration |
+<<<<<<< HEAD
 =======
 # System Architecture - Experimental Build
 
@@ -132,3 +136,5 @@ DevOps Simulator follows an **event-driven microservices architecture** with AI/
 - **Metrics**: Prometheus + Thanos (long-term storage)
 - **Logs**: ELK Stack + AI log analysis
 conflict-simulator
+=======
+>>>>>>> 1f14a53590bf1d28ff75c386288d495cc20eea2b
